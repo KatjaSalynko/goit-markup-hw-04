@@ -1,0 +1,430 @@
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif ;
+    --accent-color: #2196F3; 
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after{
+   margin: 0; 
+   padding: 0;
+}
+
+img{
+    display: block;
+}
+
+body {
+    font-family: var(--main-font);
+}
+.address-menu {
+    font-style: normal;
+}
+
+.address-menu-header{
+    font-style: normal;
+}
+
+
+.address-menu-footer {
+    background-color: #2F303A;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/* =========== COMPONENTS ========== */
+li.address-list-item > a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: rgba(255,255,255,0.6); 
+}
+li.address-list-item.first> a {
+    color: white;
+}
+/* ============ END COMPONENTS ============ */
+
+/* ===========HEADER============= */
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+}
+
+.header .logo{
+    margin-right: 110px;
+}
+
+.nav-list-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.header .address-menu-header {
+    margin-left: auto;
+}
+
+.header .header-mail{
+    margin-right: 36px;
+}
+
+.header .logo-blue-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header .logo-black-color {
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.nav-list-link {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #2196F3;
+}
+
+.header-mail,
+.header-tel{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color:#2196F3;
+}
+/* ===========END HEADER============= */
+
+/* ===========HERO============= */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+padding-top: 205px;
+padding-bottom: 30px;
+padding-left: 281px;
+padding-right: 281px;
+color: #FFFFFF;
+}
+.hero-title-btn{
+min-width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 500px;
+margin-bottom: 200px;
+
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+padding: 10px 32px;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.hero-title-btn:hover,
+.hero-title-btn:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+/* ===========END HERO ============= */
+
+/* ========== JOB DESCRIPTION */
+.description-list{
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.description-list-item:not(:last-child){
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.undertitle {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+padding-bottom: 10px;
+color: #212121;
+}
+
+.description-undertitle{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+padding-bottom: 94px;
+width: 270px;
+color: #757575;
+}
+/* ========== END JOB DESCRIPTION============ */
+
+/* ===========RESPONSIBILITIES============== */
+.responsibilities-title-list{
+    display: flex;
+    margin-bottom: 94px;
+}
+
+.responsibilities-title-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.responsibilities-title {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 94px;
+padding-bottom: 50px;
+color: #212121;
+}
+/* ===========END RESPONSIBILITIES============== */
+/* =========== TEAM ============== */
+.team{
+    background-color: rgba(245,244,250,1);
+}
+.team-title{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+
+padding-top: 94px;
+padding-bottom: 50px;
+color: #212121;
+}
+
+.team-title-list{
+    display:flex;
+    padding-bottom: 94px;
+}
+
+.team-title-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.team-title-item{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.team-undertitle{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+
+padding-top: 30px;
+padding-bottom: 10px;
+
+color: #212121;
+}
+
+.team-undertitle-description{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+padding-bottom: 30px;
+color: #757575;
+}
+/* =========== END TEAM ============== */
+/* =========== CONTACT INFORMATION ============= */
+.footer{
+    height: 252px;
+    padding-top: 94px;
+}
+.footer .logo{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: hsl(235deg 10% 21%);
+}
+
+.footer .logo-blue-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.footer .logo-white-color{
+    font-family: 'Raleway', sans-serif;
+    font-size:26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-list{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.address-list-item {
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+margin-top: 15px;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-list-item:not(:last-child){
+    margin-bottom: 9px;
+}
+/* =========== END INFORMATION ============== */
+
+/* =========== PORTFOLIO ============== */
+.section-list{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 94px;
+}
+
+.section-list-btn{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.75;
+text-align: center;
+letter-spacing: 0.03em;
+border: 0;
+border-radius: 3px;
+color: #212121;
+padding: 0px 22px;
+cursor: pointer;
+height: 28px;
+}
+.section-list-btn:hover, 
+.section-list-btn:focus,
+.section-list-btn.selected {
+    background-color:#2196F3;
+    color: white;
+}
+.section-list-item:not(:last-child) {
+    margin-right: 8px;
+    padding-bottom: 56px;
+}
+
+
+/* =========== END PORTFOLIO ============== */
+/* ============ PROJECTS ============== */
+.projects-title{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.projects-title-description{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+    justify-content: space-between;
+}
+
+.projects-list-item{
+    width: 370px;
+  
+    left: 1015px;
+    top: 262px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(238,238,238);
+}
+
+.projects-title{
+    padding-top: 27px;
+    padding-left: 24px;
+    padding-bottom: 18px;
+}
+.projects-title-description{
+    padding-left: 24px;
+    padding-bottom: 18px;
+}
+
+/* =========== END PROJECTS ============== */
+
