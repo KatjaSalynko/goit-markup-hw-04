@@ -89,6 +89,12 @@ li.address-list-item.first> a {
     margin-left: auto;
 }
 
+.header .header-mail:first-child::before{
+    content: "";
+    width: 16px;
+    height: 12px;
+}
+
 .header .header-mail{
     margin-right: 36px;
 }
@@ -146,6 +152,9 @@ color: #757575;
 /* ===========HERO============= */
 .hero{
     background-color: #2F303A;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../Images/hero/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-title{
 font-family: 'Roboto', sans-serif;
@@ -300,6 +309,34 @@ text-align: center;
 letter-spacing: 0.03em;
 padding-bottom: 30px;
 color: #757575;
+}
+.social-list {
+    display: flex;
+    justify-content: space-between;
+}
+.social-list_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: white;
+    border-radius: 50%;
+}
+
+.social-list_link:hover .social-list_icon,
+.social-list_link:focus .social-list_icon{
+    fill: var(--accent-color)
+}
+
+.social-list_link:hover,
+.social-list_link:focus{
+    background-color:#2196F3;
+}
+
+.social-list_icon{
+    width: 20px;
+    height: 20px;
 }
 /* =========== END TEAM ============== */
 /* =========== CONTACT INFORMATION ============= */
