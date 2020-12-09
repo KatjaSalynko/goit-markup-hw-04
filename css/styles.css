@@ -89,12 +89,6 @@ li.address-list-item.first> a {
     margin-left: auto;
 }
 
-.header .header-mail:first-child::before{
-    content: "";
-    width: 16px;
-    height: 12px;
-}
-
 .header .header-mail{
     margin-right: 36px;
 }
@@ -206,6 +200,17 @@ color: #FFFFFF;
 .description-list-item:not(:last-child){
     margin-right: 30px;
     margin-bottom: 10px;
+}
+.description-list-item::before{
+    content:"";
+    display: block;
+    height: 120px;
+    outline: 1px solid red;
+    background-image: url(../Images/icon-envelope.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
 }
 
 .undertitle {
