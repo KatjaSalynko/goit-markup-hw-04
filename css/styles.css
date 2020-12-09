@@ -278,6 +278,7 @@ li.address-list-item.first> a {
 /* ========== END JOB DESCRIPTION============ */
 
 /* ===========RESPONSIBILITIES============== */
+
 .responsibilities-title-list{
     display: flex;
     margin-bottom: 94px;
@@ -437,6 +438,16 @@ li.address-list-item.first> a {
 .address-list-item:not(:last-child){
     margin-bottom: 9px;
 }
+.footer-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-left: 70px;
+}
 /* =========== END INFORMATION ============== */
 
 /* =========== PORTFOLIO ============== */
@@ -551,18 +562,21 @@ li.address-list-item.first> a {
 /* =========== START CLIENTS ============== */
 .join-list {
     display: flex;
-    padding-top: 50px;
-    width: 190px;
+    padding-top: 20px;
+    padding-left: 70px;
+    width: 176px;
     justify-content: space-between;
 }
 .join-list a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     background-color: gray;
     border-radius: 50%;
     text-align: center;
+    margin-right: 10px;
 }
+
 .join-list a:hover {
     background-color: #2196F3;
 }
