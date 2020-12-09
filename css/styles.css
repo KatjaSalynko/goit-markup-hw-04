@@ -1,7 +1,7 @@
 :root{
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif ;
-    --accent-color: #2196F3; 
+    --accent-color: #2196F3;
 }
 
 .list {
@@ -14,8 +14,8 @@
 *,
 *::before,
 *::after{
-   margin: 0; 
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img{
@@ -25,6 +25,19 @@ img{
 body {
     font-family: var(--main-font);
 }
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    color: #212121;
+}
+
 .address-menu {
     font-style: normal;
 }
@@ -52,7 +65,7 @@ li.address-list-item > a{
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: rgba(255,255,255,0.6); 
+    color: rgba(255,255,255,0.6);
 }
 li.address-list-item.first> a {
     color: white;
@@ -103,21 +116,21 @@ li.address-list-item.first> a {
 }
 
 .header .logo-black-color {
-font-family: 'Raleway', sans-serif;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.192;
-letter-spacing: 0.03em;
-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .nav-list-link {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.02em;
-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 
 .nav-list-link:hover,
@@ -127,20 +140,45 @@ color: #212121;
 
 .header-mail,
 .header-tel{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.02em;
-color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+
+.header-mail svg,
+.header-tel svg {
+    fill: #757575;
 }
 
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-    color:#2196F3;
+    color: #2196F3;
 }
+
+.header-mail:hover svg,
+.header-mail:focus svg,
+.header-tel:hover svg,
+.header-tel:focus svg {
+    fill: #2196F3;
+}
+
+.envelope-icon{
+    width: 16px;
+    height: 12px;
+    margin-right:10px;
+}
+.smartphone-icon{
+    width: 16px;
+    height: 12px;
+    margin-right:10px;
+}
+
 /* ===========END HEADER============= */
 
 /* ===========HERO============= */
@@ -151,37 +189,37 @@ color: #757575;
     background-size: cover;
 }
 .hero-title{
-font-family: 'Roboto', sans-serif;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.364;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-padding-top: 205px;
-padding-bottom: 30px;
-padding-left: 281px;
-padding-right: 281px;
-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 205px;
+    padding-bottom: 30px;
+    padding-left: 281px;
+    padding-right: 281px;
+    color: #FFFFFF;
 }
 .hero-title-btn{
-min-width: 200px;
-height: 50px;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-margin-left: 500px;
-margin-bottom: 200px;
+    min-width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 500px;
+    margin-bottom: 200px;
 
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.06em;
-padding: 10px 32px;
-cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    cursor: pointer;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .hero-title-btn:hover,
@@ -201,38 +239,41 @@ color: #FFFFFF;
     margin-right: 30px;
     margin-bottom: 10px;
 }
-.description-list-item::before{
-    content:"";
-    display: block;
+
+.undertitle-icon-container {
+    width: 270px;
     height: 120px;
-    outline: 1px solid red;
-    background-image: url(../Images/icon-envelope.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.undertitle-icon {
+    height: 70px;
+    margin-top: 25px;
+    width: 270px;
 }
 
 .undertitle {
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-padding-bottom: 10px;
-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #212121;
 }
 
 .description-undertitle{
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-padding-bottom: 94px;
-width: 270px;
-color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    padding-bottom: 94px;
+    width: 270px;
+    color: #757575;
 }
 /* ========== END JOB DESCRIPTION============ */
 
@@ -245,34 +286,25 @@ color: #757575;
 .responsibilities-title-item:not(:last-child){
     margin-right: 30px;
 }
-
-.responsibilities-title {
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.167;
-text-align: center;
-letter-spacing: 0.03em;
-margin-top: 94px;
-padding-bottom: 50px;
-color: #212121;
-}
 /* ===========END RESPONSIBILITIES============== */
 /* =========== TEAM ============== */
 .team{
     background-color: rgba(245,244,250,1);
 }
-.team-title{
-font-weight: bold;
-font-size: 36px;
-line-height: 1.167;
-text-align: center;
-letter-spacing: 0.03em;
 
-padding-top: 94px;
-padding-bottom: 50px;
-color: #212121;
+/*
+.team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    padding-top: 94px;
+    padding-bottom: 50px;
+    color: #212121;
 }
+ */
 
 .team-title-list{
     display:flex;
@@ -291,34 +323,42 @@ color: #212121;
 }
 
 .team-undertitle{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.187;
-text-align: center;
-letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-padding-top: 30px;
-padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 
-color: #212121;
+    color: #212121;
 }
 
 .team-undertitle-description{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.188;
-text-align: center;
-letter-spacing: 0.03em;
-padding-bottom: 30px;
-color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    color: #757575;
 }
 .social-list {
     display: flex;
     justify-content: space-between;
+    padding: 0 40px 20px 40px;
 }
+
+.social-list .social-list_icon {
+    width: 20px;
+    height: 20px;
+    fill: #757575;
+}
+
 .social-list_link{
     display: flex;
     justify-content: center;
@@ -331,7 +371,7 @@ color: #757575;
 
 .social-list_link:hover .social-list_icon,
 .social-list_link:focus .social-list_icon{
-    fill: var(--accent-color)
+    fill: white;
 }
 
 .social-list_link:hover,
@@ -339,23 +379,32 @@ color: #757575;
     background-color:#2196F3;
 }
 
-.social-list_icon{
-    width: 20px;
-    height: 20px;
-}
 /* =========== END TEAM ============== */
 /* =========== CONTACT INFORMATION ============= */
 .footer{
-    height: 252px;
+    /*height: 252px;*/
     padding-top: 94px;
 }
+
+.footer .container {
+    display: flex;
+}
+
+.footer .footer-container {
+    margin-left: 20px;
+}
+
+.footer h4 {
+    color: white;
+}
+
 .footer .logo{
     padding-top: 60px;
     padding-bottom: 20px;
 }
 
 .footer {
-    background-color: hsl(235deg 10% 21%);
+    background-color: #30313b;
 }
 
 .footer .logo-blue-color{
@@ -378,12 +427,12 @@ color: #757575;
     padding-bottom: 60px;
 }
 .address-list-item {
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-margin-top: 15px;
-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.6);
 }
 .address-list-item:not(:last-child){
     margin-bottom: 9px;
@@ -399,20 +448,20 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .section-list-btn{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.75;
-text-align: center;
-letter-spacing: 0.03em;
-border: 0;
-border-radius: 3px;
-color: #212121;
-padding: 0px 22px;
-cursor: pointer;
-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: 0;
+    border-radius: 3px;
+    color: #212121;
+    padding: 0px 22px;
+    cursor: pointer;
+    height: 28px;
 }
-.section-list-btn:hover, 
+.section-list-btn:hover,
 .section-list-btn:focus,
 .section-list-btn.selected {
     background-color:#2196F3;
@@ -427,19 +476,19 @@ height: 28px;
 /* =========== END PORTFOLIO ============== */
 /* ============ PROJECTS ============== */
 .projects-title{
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 .projects-title-description{
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 .projects-list{
     display: flex;
@@ -450,7 +499,7 @@ color: #757575;
 
 .projects-list-item{
     width: 370px;
-  
+
     left: 1015px;
     top: 262px;
     margin-bottom: 30px;
@@ -470,3 +519,57 @@ color: #757575;
 
 /* =========== END PROJECTS ============== */
 
+/* =========== START CLIENTS ============== */
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+.clients-list a {
+    display: block;
+    width: 170px;
+    height: 90px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #757575;
+    border-radius: 3px;
+}
+.clients-list a:hover {
+    border: 1px solid #2196F3;
+}
+.clients-list a svg {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    fill: #757575;
+}
+.clients-list a:hover svg{
+    fill: #2196F3;
+}
+/* =========== END CLIENTS ============== */
+
+/* =========== START CLIENTS ============== */
+.join-list {
+    display: flex;
+    padding-top: 50px;
+    width: 190px;
+    justify-content: space-between;
+}
+.join-list a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+}
+.join-list a:hover {
+    background-color: #2196F3;
+}
+.join-list svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin-top: 10px;
+}
+/* =========== END CLIENTS ============== */
