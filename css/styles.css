@@ -230,6 +230,10 @@ li.address-list-item.first> a {
 /* ===========END HERO ============= */
 
 /* ========== JOB DESCRIPTION */
+.description-menu{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .description-list{
     display: flex;
     margin-top: 94px;
@@ -243,7 +247,7 @@ li.address-list-item.first> a {
 .undertitle-icon-container {
     width: 270px;
     height: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: lightgray;
     border-radius: 3px;
 }
@@ -271,7 +275,6 @@ li.address-list-item.first> a {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    padding-bottom: 94px;
     width: 270px;
     color: #757575;
 }
@@ -280,6 +283,7 @@ li.address-list-item.first> a {
 /* ===========RESPONSIBILITIES============== */
 .responsibilities{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .responsibilities-title-list{
     display: flex;
@@ -293,6 +297,8 @@ li.address-list-item.first> a {
 /* =========== TEAM ============== */
 .team{
     background-color: rgba(245,244,250,1);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*
@@ -456,7 +462,6 @@ li.address-list-item.first> a {
 .section-list{
     display: flex;
     justify-content: center;
-
     padding-top: 94px;
 }
 
@@ -533,6 +538,10 @@ li.address-list-item.first> a {
 /* =========== END PROJECTS ============== */
 
 /* =========== START CLIENTS ============== */
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .clients-list {
     display: flex;
     justify-content: space-between;
