@@ -278,7 +278,9 @@ li.address-list-item.first> a {
 /* ========== END JOB DESCRIPTION============ */
 
 /* ===========RESPONSIBILITIES============== */
-
+.responsibilities{
+    padding-top: 94px;
+}
 .responsibilities-title-list{
     display: flex;
     margin-bottom: 94px;
@@ -574,16 +576,19 @@ li.address-list-item.first> a {
     background-color: gray;
     border-radius: 50%;
     text-align: center;
-    margin-right: 10px;
+}
+.join-list-item:not(:last-child){
+    padding-right: 10px;
 }
 
-.join-list a:hover {
+.join-list a:hover,
+.join-list a:focus {
     background-color: #2196F3;
 }
 .join-list svg {
     width: 20px;
     height: 20px;
     fill: white;
-    margin-top: 10px;
+    margin: 12px;
 }
 /* =========== END CLIENTS ============== */
