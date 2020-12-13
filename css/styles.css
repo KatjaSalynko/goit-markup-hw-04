@@ -33,7 +33,6 @@ h2 {
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
     padding-bottom: 50px;
     color: #212121;
 }
@@ -231,13 +230,12 @@ li.address-list-item.first> a {
 
 /* ========== JOB DESCRIPTION */
 .description-menu{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 47px;
 }
 .description-list{
     display: flex;
     margin-top: 94px;
-    margin-bottom: 94px;
 }
 .description-list-item:not(:last-child){
     margin-right: 30px;
@@ -282,8 +280,8 @@ li.address-list-item.first> a {
 
 /* ===========RESPONSIBILITIES============== */
 .responsibilities{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 47px;
 }
 .responsibilities-title-list{
     display: flex;
@@ -297,8 +295,8 @@ li.address-list-item.first> a {
 /* =========== TEAM ============== */
 .team{
     background-color: rgba(245,244,250,1);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 47px;
 }
 
 /*
@@ -392,7 +390,7 @@ li.address-list-item.first> a {
 /* =========== CONTACT INFORMATION ============= */
 .footer{
     /*height: 252px;*/
-    padding-top: 94px;
+    padding-top: 47px;
 }
 
 .footer .container {
@@ -539,8 +537,8 @@ li.address-list-item.first> a {
 
 /* =========== START CLIENTS ============== */
 .clients{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 47px;
 }
 .clients-list {
     display: flex;
