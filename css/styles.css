@@ -363,7 +363,7 @@ li.address-list-item.first> a {
 .social-list .social-list_icon {
     width: 20px;
     height: 20px;
-    fill: #757575;
+    fill: #AFB1B8;
 }
 
 .social-list_link{
@@ -521,6 +521,10 @@ li.address-list-item.first> a {
     margin-bottom: 30px;
     box-sizing: border-box;
     border: 1px solid rgb(238,238,238);
+    cursor: pointer;
+}
+.projects-list-item:focus{
+    border: 1px solid black;
 }
 
 .projects-title{
@@ -551,17 +555,20 @@ li.address-list-item.first> a {
     height: 90px;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid #757575;
+    border: 1px solid #AFB1B8;
     border-radius: 3px;
 }
 .clients-list a:hover {
     border: 1px solid #2196F3;
 }
+.clients-list a:focus {
+    color:#2196F3;
+}
 .clients-list a svg {
     width: 100px;
     height: 50px;
     margin-top: 20px;
-    fill: #757575;
+    fill: #AFB1B8;
 }
 .clients-list a:hover svg{
     fill: #2196F3;
@@ -580,7 +587,7 @@ li.address-list-item.first> a {
     display: block;
     width: 44px;
     height: 44px;
-    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     text-align: center;
 }
