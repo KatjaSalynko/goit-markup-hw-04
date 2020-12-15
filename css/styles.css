@@ -523,8 +523,9 @@ li.address-list-item.first> a {
     border: 1px solid rgb(238,238,238);
     cursor: pointer;
 }
-.projects-list-item:focus{
-    border: 1px solid black;
+.projects-list-item:focus,
+.projects-list-item:hover {
+    border: 1px solid white;
 }
 
 .projects-title{
@@ -560,6 +561,7 @@ li.address-list-item.first> a {
 }
 .clients-list a:hover {
     border: 1px solid #2196F3;
+    color: #2196F3;
 }
 .clients-list a:focus {
     color:#2196F3;
